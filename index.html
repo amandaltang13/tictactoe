@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+
+  <h1> Tic Tac Toe</h1>
+
+  <header>
+    <ul class="buttons-container">
+        <li><button id="clear-button" class="main-btns">Clear Board</button></li>
+        <li><button id="single-btn" class="main-btns"> Single Player</button></li>
+        <li><button id="multi-btn" class="main-btns">Multiplayer</button></li>
+    </ul>
+</header>
+
+<header>
+    <div class="player-container" id="input-names">
+        <input class="name" id="p1" type="text" placeholder="X Name">
+        
+        <input class="name" id="p2" type="text" placeholder="O Name">
+    </div>
+</header>
+
+<div id="game-container">
+    <table id="board-container">
+        <div id="winner-container"></div>
+        <tr>
+            <td><div class="box" id="0" cellGrid="0" ></div></td>
+            <td><div class="box" id="1" cellGrid="1" ></div></td>
+            <td><div class="box" id="2" cellGrid="2" ></div></td>
+        </tr>
+
+        <tr>
+            <td><div class="box" id="3" cellGrid="3" ></div></td>
+            <td><div class="box" id="4" cellGrid="4" ></div></td>
+            <td><div class="box" id="5" cellGrid="5" ></div></td>
+        </tr>
+        <tr>
+            <td><div class="box" id="6" cellGrid="6" ></div></td>
+            <td><div class="box" id="7" cellGrid="7" ></div></td>
+            <td><div class="box" id="8" cellGrid="8" ></div></td>
+        </tr>
+    </table>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

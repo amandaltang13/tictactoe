@@ -1,0 +1,113 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(186, 160, 176);
+}
+
+h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: #eeeeed;
+}
+
+header,
+.player-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+}
+
+.box:hover {
+  background-color: #9cb094;
+}
+
+.box {
+  width: 145px;
+  height: 110px;
+  border-radius: 10px;
+  margin: 1px;
+  font-size: 50px;
+  cursor: pointer;
+  background: #c398ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgb(251, 251, 250);
+}
+
+#game-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+#winner-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #f1f1f0;
+  font-size: 30px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+.buttons-container,
+.player-container {
+  align-items: center;
+  display: flex;
+  display: inline-flex;
+  gap: 50px;
+  background-color: rgba(118, 195, 137, 0.4);
+  padding: 20px 30px 20px;
+  margin: 5px;
+}
+
+.buttons-container li,
+.main-btns {
+  display: flex;
+  background-color: rgba(231, 199, 209, 0.91);
+  font-size: 30px;
+  border: solid rgb(161, 112, 120);
+  padding: 10px;
+}
+
+.buttons-container li button:hover {
+  color: rgb(201, 137, 174);
+  cursor: pointer;
+}
+
+#p1 {
+  margin-left: 50px;
+}
+
+::placeholder {
+  color: rgb(93, 123, 94);
+  font-size: 15px;
+}
+
+.grid-board {
+  padding: 10px;
+  border-radius: 10px;
+  border-right: 10px;
+  border-bottom: rgb(241, 228, 228) solid 2px;
+} 
+
+ .win-sequence {
+  background: #f5af7e;
+} 
+
+.grid-ttt {
+  padding: 30px;
+  margin-top: 60px;
+  border-bottom: rgb(190, 151, 151) solid 3px;
+} 
+
